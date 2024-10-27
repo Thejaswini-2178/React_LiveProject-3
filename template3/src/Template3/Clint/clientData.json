@@ -1,0 +1,30 @@
+{
+    "heading": "What says our",
+    "subheading": "Customers",
+    "clients": [
+        {
+            "image": "images/client1.jpg",
+            "name": "LusDen",
+            "description": "magna aliqua. Ut",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+        },
+        {
+            "image": "images/client2.jpg",
+            "name": "Zen Court",
+            "description": "magna aliqua. Ut",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+        },
+        {
+            "image": "images/client1.jpg",
+            "name": "LusDen",
+            "description": "magna aliqua. Ut",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+        },
+        {
+            "image": "images/client2.jpg",
+            "name": "Zen Court",
+            "description": "magna aliqua. Ut",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+        }
+    ]
+}

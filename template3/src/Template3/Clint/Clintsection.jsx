@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import clientData from './clientData.json';
 
 class Clintsection extends Component {
     render() {
@@ -7,106 +8,42 @@ class Clintsection extends Component {
                 <div className="container">
                     <div className="heading_container heading_center psudo_white_primary mb_45">
                         <h2>
-                            What says our <span>Customers</span>
+                            {clientData.heading} <span>{clientData.subheading}</span>
                         </h2>
                     </div>
-                    <div className="carousel-wrap ">
+                    <div className="carousel-wrap">
                         <div className="owl-carousel client_owl-carousel">
-                            <div className="item">
-                                <div className="box">
-                                    <div className="img-box">
-                                        <img src="images/client1.jpg" alt className="box-img" />
-                                    </div>
-                                    <div className="detail-box">
-                                        <div className="client_id">
-                                            <div className="client_info">
-                                                <h6>
-                                                    LusDen
-                                                </h6>
-                                                <p>
-                                                    magna aliqua. Ut
-                                                </p>
-                                            </div>
-                                            <i className="fa fa-quote-left" aria-hidden="true" />
+                            {clientData.clients.map((client, index) => (
+                                <div className="item" key={index}>
+                                    <div className="box">
+                                        <div className="img-box">
+                                            <img src={client.image} alt={client.name} className="box-img" />
                                         </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                                        <div className="detail-box">
+                                            <div className="client_id">
+                                                <div className="client_info">
+                                                    <h6>
+                                                        {client.name}
+                                                    </h6>
+                                                    <p>
+                                                        {client.description}
+                                                    </p>
+                                                </div>
+                                                <i className="fa fa-quote-left" aria-hidden="true" />
+                                            </div>
+                                            <p>
+                                                {client.testimonial}
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="item">
-                                <div className="box">
-                                    <div className="img-box">
-                                        <img src="images/client2.jpg" alt className="box-img" />
-                                    </div>
-                                    <div className="detail-box">
-                                        <div className="client_id">
-                                            <div className="client_info">
-                                                <h6>
-                                                    Zen Court
-                                                </h6>
-                                                <p>
-                                                    magna aliqua. Ut
-                                                </p>
-                                            </div>
-                                            <i className="fa fa-quote-left" aria-hidden="true" />
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="box">
-                                    <div className="img-box">
-                                        <img src="images/client1.jpg" alt className="box-img" />
-                                    </div>
-                                    <div className="detail-box">
-                                        <div className="client_id">
-                                            <div className="client_info">
-                                                <h6>
-                                                    LusDen
-                                                </h6>
-                                                <p>
-                                                    magna aliqua. Ut
-                                                </p>
-                                            </div>
-                                            <i className="fa fa-quote-left" aria-hidden="true" />
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="box">
-                                    <div className="img-box">
-                                        <img src="images/client2.jpg" alt className="box-img" />
-                                    </div>
-                                    <div className="detail-box">
-                                        <div className="client_id">
-                                            <div className="client_info">
-                                                <h6>
-                                                    Zen Court
-                                                </h6>
-                                                <p>
-                                                    magna aliqua. Ut
-                                                </p>
-                                            </div>
-                                            <i className="fa fa-quote-left" aria-hidden="true" />
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>
             </section>
-
-        )
+        );
     }
 }
 
-export default Clintsection
+export default Clintsection;
