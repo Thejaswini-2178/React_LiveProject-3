@@ -1,0 +1,62 @@
+{
+    "heading": "OUR",
+    "subheading": "Team",
+    "description": [
+        {
+            "image": "images/team-1.jpg",
+            "name": "Joseph Brown",
+            "role": "Marketing Head",
+            "links": [
+                {
+                    "fb": "#",
+                    "twitter": "#",
+                    "linkedin": "#",
+                    "insta": "#",
+                    "youtube": "#"
+                }
+            ]
+        },
+        {
+            "image": "images/team-2.jpg",
+            "name": "Nancy White",
+            "role": "Marketing Head",
+            "links": [
+                {
+                    "fb": "#",
+                    "twitter": "#",
+                    "linkedin": "#",
+                    "insta": "#",
+                    "youtube": "#"
+                }
+            ]
+        },
+        {
+            "image": "images/team-3.jpg",
+            "name": "Earl Martinez",
+            "role": "Marketing Head",
+            "links": [
+                {
+                    "fb": "#",
+                    "twitter": "#",
+                    "linkedin": "#",
+                    "insta": "#",
+                    "youtube": "#"
+                }
+            ]
+        },
+        {
+            "image": "images/team-4.jpg",
+            "name": "Josephine Allard",
+            "role": "Marketing Head",
+            "links": [
+                {
+                    "fb": "#",
+                    "twitter": "#",
+                    "linkedin": "#",
+                    "insta": "#",
+                    "youtube": "#"
+                }
+            ]
+        }
+    ]
+}
