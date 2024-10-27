@@ -1,0 +1,32 @@
+{
+    "heroImage": "images/hero-bg.png",
+    "brandName": "Finexo",
+    "navigationLinks": [
+      { "name": "Home", "url": "index.html", "active": true },
+      { "name": "About", "url": "about.html" },
+      { "name": "Services", "url": "service.html" },
+      { "name": "Why Us", "url": "why.html" },
+      { "name": "Team", "url": "team.html" }
+    ],
+    "sliderData": [
+      {
+        "title": "Crypto Currency",
+        "description": "Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.",
+        "buttonText": "Read More",
+        "image": "images/slider-img.png"
+      },
+      {
+        "title": "Crypto Currency",
+        "description": "Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.",
+        "buttonText": "Read More",
+        "image": "images/slider-img.png"
+      },
+      {
+        "title": "Crypto Currency",
+        "description": "Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.",
+        "buttonText": "Read More",
+        "image": "images/slider-img.png"
+      }
+    ]
+  }
+  
