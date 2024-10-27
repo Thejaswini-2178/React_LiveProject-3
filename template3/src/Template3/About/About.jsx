@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import aboutData from './aboutData.json'; // Adjust the path if necessary
+import aboutData from './aboutData.json'; 
 
 class About extends Component {
     render() {
