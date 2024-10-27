@@ -1,0 +1,18 @@
+{
+    "address": {
+        "location": "Location",
+        "phone": "+01 1234567890",
+        "email": "demo@gmail.com"
+    },
+    "info": {
+        "title": "Info",
+        "description": "necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful."
+    },
+    "links": [
+        { "name": "Home", "url": "index.html", "isActive": true },
+        { "name": "About", "url": "about.html" },
+        { "name": "Services", "url": "service.html" },
+        { "name": "Why Us", "url": "why.html" },
+        { "name": "Team", "url": "team.html" }
+    ]
+}
