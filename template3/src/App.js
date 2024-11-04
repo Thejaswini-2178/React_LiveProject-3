@@ -7,7 +7,6 @@ import Team from './Template3/Team/Team';
 import Clintsection from './Template3/Clint/Clintsection';
 import Info from './Template3/Info/Info';
 import Footer from './Template3/Footer/Footer';
-import Script from './Template3/Script/Script';
 import Service from './Template3/Service/Service';
 
 
@@ -22,7 +21,6 @@ function App() {
       <Clintsection/>
       <Info/>
       <Footer/>
-      <Script/>
     </div>
   );
 }
