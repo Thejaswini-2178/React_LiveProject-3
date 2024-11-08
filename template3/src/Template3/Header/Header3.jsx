@@ -108,5 +108,4 @@ export class Header3 extends Component {
     );
   }
 }
-
 export default Header3;
