@@ -45,5 +45,4 @@ class Clintsection extends Component {
         );
     }
 }
-
 export default Clintsection;
