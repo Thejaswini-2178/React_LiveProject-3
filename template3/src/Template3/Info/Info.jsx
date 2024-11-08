@@ -41,7 +41,6 @@ class Info extends Component {
                                 </a>
                             </div>
                         </div>
-
                         {/* Info Section */}
                         <div className="col-md-6 col-lg-3 info_col">
                             <div className="info_detail">
